@@ -1,26 +1,27 @@
-function getCommonElements(array1, array2) {
-  // Пиши код ниже этой строки
-  const sum = array1.concat(array2);
-  let arr = [];
-  for (let i = 0; i < array1.length; i += 1) {
-    if (array1.includes(sum[i]) && array2.includes(sum[i])) {
-      arr.push(sum[i]);
-    }
-  }
-  return arr;
-  // Пиши код выше этой строки
-}
-
 // Второй вариант решения
 
+function getCommonElements(array1, array2) {
+  let arr = [];
+  for (let i = 0; i < array1.length; i += 1) {
+    if (array2.includes(array1[i])) {
+      arr.push(array1[i]);
+    }
+  }
+  return console.log(arr);
+}
+
+// Первый вариант решения
 // function getCommonElements(array1, array2) {
-//   let newArray = [];
+//   // Пиши код ниже этой строки
+//   const sum = array1.concat(array2);
+//   let arr = [];
 //   for (let i = 0; i < array1.length; i += 1) {
-//     if (array2.includes(array1[i])) {
-//       newArray.push(array1[i]);
+//     if (array1.includes(sum[i]) && array2.includes(sum[i])) {
+//       arr.push(sum[i]);
 //     }
 //   }
-//   return newArray;
+//   return console.log(arr);
+//   // Пиши код выше этой строки
 // }
 
 getCommonElements([1, 2, 3], [2, 4]); // возвращает [2].

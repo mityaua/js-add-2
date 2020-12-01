@@ -6,7 +6,7 @@ function filterArray(numbers, value) {
       arr.push(numbers[i]);
     }
   }
-  return console.log(arr);
+  return arr;
   // Пиши код выше этой строки
 }
 

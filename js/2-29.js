@@ -7,7 +7,7 @@ function getEvenNumbers(start, end) {
       arr.push(i);
     }
   }
-  return console.log(arr);
+  return arr;
   // Пиши код выше этой строки
 }
 

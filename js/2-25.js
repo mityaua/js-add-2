@@ -1,4 +1,4 @@
-// Второй вариант решения
+// Финальный вариант решения
 
 function getCommonElements(array1, array2) {
   let arr = [];
@@ -10,7 +10,8 @@ function getCommonElements(array1, array2) {
   return console.log(arr);
 }
 
-// Первый вариант решения
+// Исходный вариант решения
+
 // function getCommonElements(array1, array2) {
 //   // Пиши код ниже этой строки
 //   const sum = array1.concat(array2);
